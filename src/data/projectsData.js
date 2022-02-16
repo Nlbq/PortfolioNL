@@ -17,17 +17,17 @@ export const projectsData = [
     infos:
       "Voici un autre portfolio développé en Html/Css/Javascript, encore en travaux.",
     img: "./assets/img/PortfolioBGE.png",
-    link: "http://www.google.com",
+    link: "https://portfolio-nlbq.netlify.app",
   },
   {
     id: 3,
-    title: "Everpost",
+    title: "La Cantina",
     date: "Avril 2020",
     languages: ["React"],
     infos:
       "Site en cours de confection pour le collectif de musique La Cantina",
     img: "./assets/img/CantinaReact.png",
-    link: "http://www.google.com",
+    link: "https://la-cantina.netlify.app",
   },
   {
     id: 4,
@@ -37,6 +37,6 @@ export const projectsData = [
     infos:
       "Portfolio sur lequel vous naviguez, mais par manque de contenu on comble comme on peut.",
     img: "./assets/img/portfolioReact.png",
-    link: "http://www.google.com",
+    link: "https://portfolio-nl.netlify.app",
   },
 ];

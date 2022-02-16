@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
-import { projectsData } from '../data/projectsData'
+import React, { useState } from 'react';
+import { projectsData } from '../data/projectsData';
+
+
 
 export default function Project(props) {
     const [currentProject] = useState(projectsData);
@@ -11,7 +13,8 @@ export default function Project(props) {
     let transform = "scale(" + (Math.random() + 0.7) + ")"
 
     return (
-        <div className="project-main">
+        <div
+            className="project-main">
             <div className="project-content">
                 <h1>{project.title}</h1>
                 <p>{project.date}</p>

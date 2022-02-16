@@ -7,19 +7,19 @@ export default function Navigation() {
             <ul>
                 <NavLink to="/" exact className="hover" activeClassName="nav-active">Accueil</NavLink>
 
-                <li className="nav-portfolio">Portfolio
+                <li className="nav-portfolio">Projets
                     <ul className="nav-projects">
                         <NavLink to="/project-1" activeClassName="nav-active" className="hover">
-                            <li>Projet 1</li>
+                            <li>Multiprisme</li>
                         </NavLink>
                         <NavLink to="/project-2" activeClassName="nav-active" className="hover">
-                            <li>Projet 2</li>
+                            <li>Portfolio classique</li>
                         </NavLink>
                         <NavLink to="/project-3" activeClassName="nav-active" className="hover">
-                            <li>Projet 3</li>
+                            <li>La Cantina</li>
                         </NavLink>
                         <NavLink to="/project-4" activeClassName="nav-active" className="hover">
-                            <li>Projet 4</li>
+                            <li>Ce portfolio</li>
                         </NavLink>
                     </ul>
                 </li>

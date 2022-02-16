@@ -17,11 +17,11 @@ function App() {
         if (e.wheelDeltaY < 0) {
           setTimeout(() => {
             history.push(after)
-          }, 500);
+          }, 800);
         } else if (e.wheelDeltaY > 0) {
           setTimeout(() => {
             history.push(before)
-          }, 500);
+          }, 800);
         }
       }
 
